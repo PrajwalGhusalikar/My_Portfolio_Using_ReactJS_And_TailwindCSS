@@ -3,7 +3,7 @@ import myImg from "../assets/prajval_square.jpg";
 const Home = () => {
   return (
     <>
-      <div className="pt-10">
+      <div className="w-full pt-16 sm:pt-10">
         <div className="bg-gradient-to-r from-cyan-800 to-indigo-800 flex flex-col justify-center h-screen">
           <div className="flex flex-col md:flex-row md:justify-evenly  ">
             <div className="flex flex-col justify-center p-10 md:w-[850px]">
@@ -13,7 +13,7 @@ const Home = () => {
               <div className="img flex justify-center py-2">
                 {" "}
                 <img
-                  className=" sm:hidden py-2 h-60 w-60  rounded-2xl"
+                  className=" sm:hidden py-2 h-60 w-60 rounded-2xl"
                   src={myImg}
                   alt=""
                 />
@@ -24,8 +24,8 @@ const Home = () => {
                 responsive web applications.
               </div>
               <div className="h-70  flex flex-col  justify-start my-4">
-                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded text-white">
-                  Portfolio
+                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                  GitHub
                 </button>
                 <div className="social-media-links flex justify-start p-4">
                   <div className="linkdin mr-2 ">
@@ -43,7 +43,7 @@ const Home = () => {
 
             <div className="hidden sm:flex flex-col justify-center sm:h-68 md:w-68 m-10">
               {" "}
-              <img className="h-68 w-68 rounded-full " src={myImg} alt="" />
+              <img className="h-68 w-68 border-2 p-2 border-opacity-40 border-solid border-white  rounded-full " src={myImg} alt="" />
             </div>
           </div>
         </div>

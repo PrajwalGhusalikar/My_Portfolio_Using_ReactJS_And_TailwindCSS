@@ -2,32 +2,52 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [toggle, settoggle] = useState("");
   return (
-    <div>
-      <div className="flex z-10 justify-between items-center w-full h-20 text-white fixed bg-slate-900 ">
+    <div  className="w-screen ">
+      <div className="flex z-10 justify-between items-center w-screen h-20 text-white fixed bg-slate-900 ">
         <div className="text-white font-serif text-center px-4 text-4xl ">
           It's me Prajwal
         </div>
-        <div className="hidden md:flex justify-end">
+        <div className="hidden md:flex justify-end p-1 pr-5">
           <div className=" px-2 font-light text-gray-300 hover:font-bold cursor-pointer">
-            Home
+            About
+          </div>
+          <div className=" px-2 font-light text-gray-300 hover:font-bold cursor-pointer">
+            Skills
           </div>
           <div className=" px-2 font-light text-gray-300 hover:font-bold cursor-pointer">
             Projects
           </div>
           <div className=" px-2 font-light text-gray-300 hover:font-bold cursor-pointer">
-            About
+            Experiance
           </div>
           <div className=" px-2 font-light text-gray-300 hover:font-bold cursor-pointer">
             Contact
           </div>
         </div>
-        {toggle?"": <div onClick={()=>{settoggle(true)}} className="  px-2 text-2xl  md:hidden hover:scale-120 cursor-pointer">
-          <i className="fa-solid fa-bars text-gray-300"></i>
-        </div>}
-        {toggle?<div onClick={()=>{settoggle(false)}} className="  px-2 text-2xl  md:hidden hover:scale-120 cursor-pointer">
-          <i className="fa-solid fa-bars text-gray-300"></i>
-        </div>: ""}
-       
+        {toggle ? (
+          ""
+        ) : (
+          <div
+            onClick={() => {
+              settoggle(true);
+            }}
+            className="  px-2 text-2xl  md:hidden hover:scale-120 cursor-pointer"
+          >
+            <i className="fa-solid fa-bars text-gray-300"></i>
+          </div>
+        )}
+        {toggle ? (
+          <div
+            onClick={() => {
+              settoggle(false);
+            }}
+            className="  px-2 text-2xl  md:hidden hover:scale-120 cursor-pointer"
+          >
+            <i className="fa-solid fa-bars text-gray-300"></i>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
 
       {toggle ? (
@@ -48,7 +68,6 @@ const Navbar = () => {
       ) : (
         " "
       )}
-
     </div>
   );
 };
