@@ -10,9 +10,11 @@ import expressLogo from "../assets/express.png";
 import htmlLogo from "../assets/html.png";
 const Skills = () => {
   return (
-    <div>
+    <div name="skills">
       <div className="w-full bg-gradient-to-r from-slate-900 to-slate-950 flex flex-col text-center  ">
-        <h2 className="text-4xl text-slate-100 font-serif p-2">My Technical Skills</h2>
+        <h2 className="text-4xl text-slate-100 font-serif p-2">
+          My Technical Skills
+        </h2>
         <div className=" bg-gradient-to-r from-slate-800 to-slate-950 sm:flex flex-wrap justify-evenly  p-5 w-screen">
           <div className=" flex flex-col p-3 ">
             <h1 className="text-slate-400 text-center py-2 text-3xl">

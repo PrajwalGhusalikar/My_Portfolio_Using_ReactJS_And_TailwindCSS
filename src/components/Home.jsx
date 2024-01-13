@@ -3,20 +3,23 @@ import myImg from "../assets/prajval_square.jpg";
 const Home = () => {
   return (
     <>
-      <div className="w-full pt-16 sm:pt-10">
-        <div className="bg-gradient-to-r from-cyan-800 to-indigo-800 flex flex-col justify-center h-screen">
-          <div className="flex flex-col md:flex-row md:justify-evenly  ">
+      <div name="home" className="w-full pt-16 sm:pt-10">
+        <div className="bg-gradient-to-r from-cyan-800 to-indigo-950 flex flex-col justify-center h-screen">
+          <div className="flex flex-col md:flex-row md:justify-evenly items-center  ">
             <div className="flex flex-col justify-center p-10 md:w-[850px]">
               <div className="px-3 text-white py-2 text-4xl md:text-6xl">
                 I am A Full Stack Developer
               </div>
-              <div className="img flex justify-center py-2">
+              <div className="sm:hidden flex flex-col justify-center items-center py-2">
                 {" "}
                 <img
-                  className=" sm:hidden py-2 h-60 w-60 rounded-2xl"
+                  className=" py-2 h-68 min-w-68 rounded-2xl"
                   src={myImg}
                   alt=""
                 />
+                <h2 className="text-2xl text-white underline p-2">
+                  Prajwal Ghusalikar
+                </h2>
               </div>
               <div className="text-white px-3 md:text-2xl text-center md:text-start ">
                 I am a Front-end (React Developer) and Full-stack (MERN Stack)
@@ -25,7 +28,7 @@ const Home = () => {
               </div>
               <div className="h-70  flex flex-col  justify-start my-4">
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-                  GitHub
+                  Resume
                 </button>
                 <div className="social-media-links flex justify-start p-4">
                   <div className="linkdin mr-2 ">
@@ -41,9 +44,16 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="hidden sm:flex flex-col justify-center sm:h-68 md:w-68 m-10">
+            <div className="hidden sm:flex flex-col justify-center items-center sm:min-h-68 sm:min-w-68 m-10">
               {" "}
-              <img className="h-68 w-68 border-2 p-2 border-opacity-40 border-solid border-white  rounded-full " src={myImg} alt="" />
+              <img
+                className="min-h-68 min-w-68 border-2 p-2 border-opacity-40 border-solid border-white  rounded-full "
+                src={myImg}
+                alt=""
+              />
+              <h2 className="text-2xl text-white underline p-3">
+                Prajwal Ghusalikar
+              </h2>
             </div>
           </div>
         </div>

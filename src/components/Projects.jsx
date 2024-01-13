@@ -3,7 +3,7 @@ import myPortfolioImg from "../assets/portfolioImg.png";
 import mynotebook from "../assets/myNotebook.png";
 const Projects = () => {
   return (
-    <div>
+    <div name="projects">
       <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center ">
         <h2 className="text-4xl  text-slate-100 font-serif p-2">My Projects</h2>{" "}
       </div>
@@ -12,10 +12,10 @@ const Projects = () => {
           <h3 className="text-center sm:hidden text-white p-2 text-2xl underline">
             My Portfolio
           </h3>
-          <div className=" w-[334px] m-auto sm:m-0 sm:w-[340px]  mt-3 mb-3 flex flex-col justify-center ">
+          <div className=" w-[300px] m-auto sm:m-0 sm:w-[340px]  mt-3 mb-3 flex flex-col justify-center ">
             {" "}
             <img
-              className="m-auto h-56  sm:w-auto sm:m-auto rounded-xl"
+              className="m-auto h-52 sm:h-56 sm:w-auto sm:m-auto rounded-xl"
               src={myPortfolioImg}
               alt="Project1Img"
             />
@@ -53,10 +53,10 @@ const Projects = () => {
           <h3 className="text-center sm:hidden text-white p-2 text-2xl underline">
             Notes Management App Using MERN
           </h3>
-          <div className="sm:hidden w-[334px] m-auto sm:m-0 sm:w-[340px]  mt-3 mb-3 flex flex-col justify-center ">
+          <div className="sm:hidden w-[300px] m-auto sm:m-0 sm:w-[340px]  mt-3 mb-3 flex flex-col justify-center ">
             {" "}
             <img
-              className="m-auto h-56  sm:w-auto sm:m-auto rounded-xl"
+              className="m-auto h-52 sm:h-56 sm:w-auto sm:m-auto rounded-xl"
               src={mynotebook}
               alt="Project1Img"
             />
@@ -99,7 +99,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
