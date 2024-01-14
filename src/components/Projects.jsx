@@ -1,13 +1,13 @@
 import React from "react";
 import myPortfolioImg from "../assets/portfolioImg.png";
-import mynotebook from "../assets/myNotebook.png";
+import mynotebook from "../assets/noteApp.png";
 const Projects = () => {
   return (
     <div name="projects">
-      <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center ">
+      <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center sticky z-5 top-20 ">
         <h2 className="text-4xl  text-slate-100 font-serif p-2">My Projects</h2>{" "}
       </div>
-      <div className="bg-gradient-to-r from-slate-800 to-slate-950 p-2">
+      <div className="bg-gradient-to-r from-slate-800 to-slate-950 p-2 ">
         <div className="projectsection   flex sm:flex-row flex-col justify-evenly p-5">
           <h3 className="text-center sm:hidden text-white p-2 text-2xl underline">
             My Portfolio
@@ -21,12 +21,22 @@ const Projects = () => {
             />
           </div>
           <div className="buttons flex sm:hidden justify-center">
-            <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-              Live Link
-            </button>
-            <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-              GitHub
-            </button>
+            <a
+              href="https://prajwalghusalikarportfolio.netlify.app/"
+              target="_blank"
+            >
+              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                Live Link
+              </button>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/PrajwalGhusalikar/My_Portfolio_Using_ReactJS_And_TailwindCSS"
+            >
+              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                GitHub
+              </button>
+            </a>
           </div>
           <div className="projectdetails sm:w-96 m-4 ">
             <h3 className="hidden sm:flex justify-center text-center text-white p-2 text-2xl underline">
@@ -38,12 +48,22 @@ const Projects = () => {
               operated at any device.
             </h3>
             <div className="buttons hidden sm:flex justify-center">
-              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-                Live Link
-              </button>
-              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-                GitHub
-              </button>
+              <a
+                href="https://prajwalghusalikarportfolio.netlify.app/"
+                target="_blank"
+              >
+                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                  Live Link
+                </button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/PrajwalGhusalikar/My_Portfolio_Using_ReactJS_And_TailwindCSS"
+              >
+                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                  GitHub
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -62,12 +82,22 @@ const Projects = () => {
             />
           </div>
           <div className="buttons flex sm:hidden justify-center">
-            <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-              Live Link
-            </button>
-            <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-              GitHub
-            </button>
+            <a
+              target="_blank"
+              href="https://notes-management-app-using-mern-stack.netlify.app/"
+            >
+              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                Live Link
+              </button>
+            </a>
+            <a
+              href="https://github.com/PrajwalGhusalikar/MERN-Note-App/"
+              target="_blank"
+            >
+              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                GitHub
+              </button>
+            </a>
           </div>
           <div className="projectdetails sm:w-96 m-4 ">
             <h3 className="hidden sm:flex justify-center text-center text-white p-2 text-2xl underline">
@@ -81,12 +111,22 @@ const Projects = () => {
               Sign-up functionalities.
             </h3>
             <div className="buttons hidden sm:flex justify-center">
-              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-                Live Link
-              </button>
-              <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
-                GitHub
-              </button>
+              <a
+                target="_blank"
+                href="https://notes-management-app-using-mern-stack.netlify.app/"
+              >
+                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                  Live Link
+                </button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/PrajwalGhusalikar/MERN-Note-App/"
+              >
+                <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
+                  GitHub
+                </button>
+              </a>
             </div>
           </div>
           <div className="hidden w-[334px] m-auto sm:m-0 sm:w-[340px]  mt-3 mb-3 sm:flex flex-col justify-center ">

@@ -7,9 +7,9 @@ const Navbar = () => {
 
   return (
     <div className="w-screen ">
-      <div className="flex z-10 justify-between items-center w-screen h-20 text-white fixed bg-slate-900 ">
+      <div className="flex  justify-between items-center w-screen h-20 text-white fixed bg-slate-900 z-20">
         <div className="text-white font-serif text-center px-4 text-4xl sm:w-96 w-auto ">
-          It's me Prajwal
+          It's me Prajwal <p></p>
         </div>
         <div className="hidden md:flex w-full justify-evenly p-1 pr-5">
           <div className=" p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer">
@@ -51,7 +51,7 @@ const Navbar = () => {
               Projects
             </Link>
           </div>
-          <div className="  p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer">
+          {/* <div className="  p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer">
             <Link
               to="experiance"
               className="m-auto"
@@ -62,6 +62,19 @@ const Navbar = () => {
               }}
             >
               Experiance
+            </Link>
+          </div> */} 
+          <div className="  p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer">
+            <Link
+              to="contact"
+              className="m-auto"
+              smooth={true}
+              duration={500}
+              onClick={() => {
+                settoggle(false);
+              }}
+            >
+              Contact
             </Link>
           </div>
           <div className="  p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer">
@@ -77,19 +90,7 @@ const Navbar = () => {
               About
             </Link>
           </div>
-          <div className="  p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer">
-            <Link
-              to="contact"
-              className="m-auto"
-              smooth={true}
-              duration={500}
-              onClick={() => {
-                settoggle(false);
-              }}
-            >
-              Contact
-            </Link>
-          </div>
+         
         </div>
         {toggle ? (
           ""
@@ -118,7 +119,7 @@ const Navbar = () => {
       </div>
 
       {toggle ? (
-        <div className="flex fixed top-0 left-0 right-0 z-5 flex-col justify-center text-center bg-slate-900 h-screen ">
+        <div className="flex fixed top-0 left-0 right-0 z-5 flex-col justify-center text-center bg-slate-900 opacity-85 h-screen z-10 ">
           <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 ">
             <Link
               to="home"
@@ -155,7 +156,7 @@ const Navbar = () => {
               Projects
             </Link>
           </div>
-          <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
+          {/* <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
             <Link
               to="experiance"
               smooth={true}
@@ -165,6 +166,18 @@ const Navbar = () => {
               }}
             >
               Experiance
+            </Link>
+          </div> */}
+          <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={() => {
+                settoggle(false);
+              }}
+            >
+              Contact
             </Link>
           </div>
           <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
@@ -179,18 +192,7 @@ const Navbar = () => {
               About
             </Link>
           </div>
-          <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
-            <Link
-              to="contact"
-              smooth={true}
-              duration={500}
-              onClick={() => {
-                settoggle(false);
-              }}
-            >
-              Contact
-            </Link>
-          </div>
+          
         </div>
       ) : (
         " "

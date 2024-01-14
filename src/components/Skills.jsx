@@ -8,19 +8,21 @@ import reactLogo from "../assets/react.png";
 import tailwindLogo from "../assets/tailwind.png";
 import expressLogo from "../assets/express.png";
 import htmlLogo from "../assets/html.png";
+import gitLogo from "../assets/gitHub.png";
+import vsCodeLogo from "../assets/vsCode.png";
 const Skills = () => {
   return (
     <div name="skills">
-      <div className="w-full bg-gradient-to-r from-slate-900 to-slate-950 flex flex-col text-center  ">
-        <h2 className="text-4xl text-slate-100 font-serif p-2">
-          My Technical Skills
-        </h2>
+      <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center sticky z-5 top-20 ">
+        <h2 className="text-4xl  text-slate-100 font-serif p-2">My TechStack</h2>{" "}
+      </div>
+      <div className="w-full  bg-gradient-to-r from-slate-900 to-slate-950 flex flex-col text-center  ">
         <div className=" bg-gradient-to-r from-slate-800 to-slate-950 sm:flex flex-wrap justify-evenly  p-5 w-screen">
           <div className=" flex flex-col p-3 ">
             <h1 className="text-slate-400 text-center py-2 text-3xl">
               <u>Frontend</u>
             </h1>
-            <div className=" m-auto  md:w-80 flex flex-wrap justify-evenly">
+            <div className=" m-auto  md:w-96 flex flex-wrap justify-evenly">
               <div className="badge w-auto flex flex-col justify-center m-3">
                 <div className="img ">
                   <img
@@ -132,6 +134,33 @@ const Skills = () => {
                   />
                 </div>
                 <h1 className="text-center text-cyan-100 text-base">MongoDB</h1>
+              </div>
+            </div>
+          </div>{" "}
+          <div className=" flex flex-col p-3 ">
+            <h1 className="text-slate-400 text-center py-2 text-3xl">
+              <u>Tools</u>
+            </h1>
+            <div className=" m-auto  md:w-80 flex flex-wrap justify-evenly">
+              <div className="badge w-auto flex flex-col justify-center m-3">
+                <div className="img ">
+                  <img
+                    className="h-24 w-auto m-auto p-2 "
+                    src={gitLogo}
+                    alt=""
+                  />
+                </div>
+                <h1 className="text-center text-cyan-100 text-base">GitHub</h1>
+              </div>
+              <div className="badge w-auto flex flex-col justify-center m-3">
+                <div className="img ">
+                  <img
+                    className="h-24 w-auto m-auto p-2 "
+                    src={vsCodeLogo}
+                    alt=""
+                  />
+                </div>
+                <h1 className="text-center text-cyan-100 text-base">VsCode</h1>
               </div>
             </div>
           </div>{" "}

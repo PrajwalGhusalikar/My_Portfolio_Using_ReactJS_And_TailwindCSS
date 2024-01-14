@@ -3,11 +3,11 @@ import myImg from "../assets/prajval_square.jpg";
 const Home = () => {
   return (
     <>
-      <div name="home" className="w-full pt-16 sm:pt-10">
+      <div name="home" className="w-full pt-16 sm:pt-10 ">
         <div className="bg-gradient-to-r from-cyan-800 to-indigo-950 flex flex-col justify-center h-screen">
           <div className="flex flex-col md:flex-row md:justify-evenly items-center  ">
             <div className="flex flex-col justify-center p-10 md:w-[850px]">
-              <div className="px-3 text-white py-2 text-4xl md:text-6xl">
+              <div className="px-3 text-white  py-6 text-4xl md:text-6xl">
                 I am A Full Stack Developer
               </div>
               <div className="sm:hidden flex flex-col justify-center items-center py-2">
@@ -31,14 +31,33 @@ const Home = () => {
                   Resume
                 </button>
                 <div className="social-media-links flex justify-start p-4">
-                  <div className="linkdin mr-2 ">
-                    <i className="fa-brands fa-linkedin text-black text-3xl"></i>
+                  <div className="mr-2 ">
+                    <i className="fa-solid fa-envelope  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
                   </div>
-                  <div className="github mx-2">
-                    <i className="fa-brands fa-instagram text-black text-3xl"></i>
+                  <div className=" mx-2 ">
+                    <a
+                      href="https://www.linkedin.com/in/prajwal-ghusalikar-139ab0282/"
+                      target="_blank"
+                    >
+                      {" "}
+                      <i className="fa-brands fa-linkedin text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
+                    </a>
                   </div>
-                  <div className="twitter mx-2 ">
-                    <i className="fa-brands fa-github text-black text-3xl"></i>
+                  <div className="mx-2">
+                    <a
+                      href="https://www.instagram.com/prajval___100/?igsh=NzcyZHR0enR6OTNs"
+                      target="_blank"
+                    >
+                      <i className="fa-brands fa-instagram text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
+                    </a>
+                  </div>
+                  <div className=" mx-2 ">
+                    <a
+                      href="https://github.com/PrajwalGhusalikar"
+                      target="_bank"
+                    >
+                      <i className="fa-brands fa-github text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
+                    </a>
                   </div>
                 </div>
               </div>
