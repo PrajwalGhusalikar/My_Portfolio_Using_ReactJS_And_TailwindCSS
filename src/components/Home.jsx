@@ -38,6 +38,7 @@ const Home = () => {
                     <a
                       href="https://www.linkedin.com/in/prajwal-ghusalikar-139ab0282/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {" "}
                       <i className="fa-brands fa-linkedin text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
@@ -47,6 +48,7 @@ const Home = () => {
                     <a
                       href="https://www.instagram.com/prajval___100/?igsh=NzcyZHR0enR6OTNs"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fa-brands fa-instagram text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl "></i>
                     </a>

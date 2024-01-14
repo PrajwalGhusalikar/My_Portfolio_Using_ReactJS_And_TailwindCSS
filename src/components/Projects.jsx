@@ -24,6 +24,7 @@ const Projects = () => {
             <a
               href="https://prajwalghusalikarportfolio.netlify.app/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
                 Live Link
@@ -31,6 +32,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/PrajwalGhusalikar/My_Portfolio_Using_ReactJS_And_TailwindCSS"
             >
               <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
@@ -51,6 +53,7 @@ const Projects = () => {
               <a
                 href="https://prajwalghusalikarportfolio.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
                   Live Link
@@ -58,6 +61,7 @@ const Projects = () => {
               </a>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/PrajwalGhusalikar/My_Portfolio_Using_ReactJS_And_TailwindCSS"
               >
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
@@ -84,6 +88,7 @@ const Projects = () => {
           <div className="buttons flex sm:hidden justify-center">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://notes-management-app-using-mern-stack.netlify.app/"
             >
               <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
@@ -93,6 +98,7 @@ const Projects = () => {
             <a
               href="https://github.com/PrajwalGhusalikar/MERN-Note-App/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
                 GitHub
@@ -113,6 +119,7 @@ const Projects = () => {
             <div className="buttons hidden sm:flex justify-center">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://notes-management-app-using-mern-stack.netlify.app/"
               >
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
@@ -121,6 +128,7 @@ const Projects = () => {
               </a>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/PrajwalGhusalikar/MERN-Note-App/"
               >
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-white">
