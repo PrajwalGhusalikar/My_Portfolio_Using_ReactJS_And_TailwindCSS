@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="w-screen  bg-slate-900  text-xl flex flex-col sm:flex-row justify-around items-center text-gray-400  ">
         <div className=" flex justify-center items-center text-start hover:text-gray-300 hover:cursor-pointer p-1">
           <i className=" hidden sm:block fa-solid fa-envelope  hover:text-gray-300 hover:cursor-pointer text-2xl p-2 pb-0"></i>
-          <span className=" text-xl underline">
+          <span className=" text-xl select-all underline">
             prajwalghusalikar@gmail.com
           </span>
         </div>

@@ -13,8 +13,8 @@ import vsCodeLogo from "../assets/vsCode.png";
 const Skills = () => {
   return (
     <div name="skills">
-      <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center sticky z-5 top-20 ">
-        <h2 className="text-4xl  text-slate-100 font-serif p-2">My TechStack</h2>{" "}
+      <div className=" bg-gradient-to-r from-slate-900 to-slate-800  text-center sticky z-5 top-16 sm:top-20 ">
+        <h2 className="text-3xl  text-slate-100 font-serif p-2">My TechStack</h2>{" "}
       </div>
       <div className="w-full  bg-gradient-to-r from-slate-900 to-slate-950 flex flex-col text-center  ">
         <div className=" bg-gradient-to-r from-slate-800 to-slate-950 sm:flex flex-wrap justify-evenly  p-5 w-screen">
