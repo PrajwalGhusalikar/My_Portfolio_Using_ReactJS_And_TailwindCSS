@@ -10,10 +10,12 @@ const Contact = () => {
       <div className="bg-gradient-to-r from-slate-800 to-slate-950  w-screen flex flex-col sm:flex-row justify-evenly items-center p-3 ">
         <div className="sm:h-[460px] sm:w-[460px] p-2  ">
           <div className=" flex justify-center text-gray-500  items-center text-start hover:text-gray-300 hover:cursor-pointer p-1">
-            <i className=" hidden sm:block fa-solid fa-envelope  hover:text-gray-300 hover:cursor-pointer text-2xl p-2 pb-0"></i>
-            <span className=" text-xl select-all underline">
-              prajwalghusalikar@gmail.com
-            </span>
+            <a href="mailto:prajwalghusalikar@gmail.com">
+              <i className=" hidden sm:block fa-solid fa-envelope  hover:text-gray-300 hover:cursor-pointer text-2xl p-2 pb-0"></i>
+              <span className=" text-xl select-all underline ">
+                prajwalghusalikar@gmail.com
+              </span>
+            </a>
           </div>
           <img
             src={avatar}

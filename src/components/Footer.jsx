@@ -5,14 +5,16 @@ const Footer = () => {
     <div>
       <div className="w-screen  bg-slate-900  text-xl flex flex-col sm:flex-row justify-around items-center text-gray-400  ">
         <div className=" flex justify-center items-center text-start hover:text-gray-300 hover:cursor-pointer p-1">
-          <i className=" hidden sm:block fa-solid fa-envelope  hover:text-gray-300 hover:cursor-pointer text-2xl p-2 pb-0"></i>
-          <span className=" text-xl select-all underline">
-            prajwalghusalikar@gmail.com
-          </span>
+          <a href="mailto:prajwalghusalikar@gmail.com">
+            <i className=" hidden sm:block fa-solid fa-envelope  hover:text-gray-300 hover:cursor-pointer text-2xl p-2 pb-0"></i>
+            <span className=" text-xl select-all underline ">
+              prajwalghusalikar@gmail.com
+            </span>
+          </a>
         </div>
 
         <div className=" text-xl  flex flex-evenly  items-center">
-          <div className="p-2 text-center hidden sm:block hover:text-gray-300 hover:cursor-pointer">
+          <div className="p-2 text-center hidden sm:block hover:text-gray-300 hover:cursor-pointer ">
             {" "}
             <a
               href="https://www.linkedin.com/in/prajwal-ghusalikar-139ab0282/"
@@ -45,15 +47,16 @@ const Footer = () => {
               GitHub
             </a>
           </div>
-          <div className="p-2 text-center hidden sm:block hover:text-gray-300 hover:cursor-pointer">
-            <i className="fa-regular fa-file hover:text-gray-300 hover:cursor-pointer text-xl p-2"></i>{" "}
-            Resume
-          </div>
-
+          <a href="\Prajwal_Ghusalikar_Resume1.pdf" download>
+            <div className="p-2 text-center hidden sm:block hover:text-gray-300 hover:cursor-pointer">
+              <i className="fa-regular fa-file hover:text-gray-300 hover:cursor-pointer text-xl p-2"></i>{" "}
+              Resume
+            </div>
+          </a>
           <div className="social-media-links  flex justify-start p-2  sm:hidden ">
             <div className="linkdin mr-2 ">
               <a
-                href="https://www.linkedin.com/in/prajwal-ghusalikar-139ab0282/"
+                href="https://www.linkedin.com/in/prajwal-ghusalikar"
                 target="_blank"
                 rel="noopener noreferrer"
               >

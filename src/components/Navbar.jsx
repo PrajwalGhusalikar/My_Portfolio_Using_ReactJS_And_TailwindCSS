@@ -8,10 +8,10 @@ const Navbar = () => {
   return (
     <div className="w-screen ">
       <div className="flex  justify-between items-center w-screen h-16 sm:h-20 text-white fixed bg-slate-900 z-20">
-        <div className="text-white font-serif text-center px-4 text-4xl sm:w-96 w-auto ">
+        <div className="text-white font-serif text-start px-4 text-4xl  sm:w-96 w-auto ml-2 ">
           It's me Prajwal <p></p>
         </div>
-        <div className="hidden md:flex w-full text-xl justify-evenly p-1 pr-5">
+        <div className="hidden md:flex  text-xl justify-between p-1 pr-5 mr-2">
           <Link
             to="home"
             className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
@@ -27,7 +27,7 @@ const Navbar = () => {
 
           <Link
             to="skills"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center  hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
             smooth={true}
             offset={-70}
             duration={500}
