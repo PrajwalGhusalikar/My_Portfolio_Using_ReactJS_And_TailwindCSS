@@ -32,7 +32,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-instagram hover:text-gray-300 hover:cursor-pointer text-xl p-2"></i>
+              <i className="fa-brands fa-instagram hover:text-gray-300 hover:cursor-pointer text-xl p-2 transition-all"></i>
               Instagram
             </a>
           </div>
@@ -43,7 +43,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-github hover:text-gray-300 hover:cursor-pointer text-xl p-2"></i>{" "}
+              <i className="fa-brands fa-github hover:text-gray-300 hover:cursor-pointer text-xl p-2 transition-all"></i>{" "}
               GitHub
             </a>
           </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-linkedin hover:text-gray-300 hover:cursor-pointer text-xl"></i>
+                <i className="fa-brands fa-linkedin hover:text-gray-300 hover:cursor-pointer text-xl transition-all"></i>
               </a>
             </div>
             <div className="insta mx-2">
@@ -69,7 +69,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-instagram hover:text-gray-300 hover:cursor-pointer text-xl"></i>
+                <i className="fa-brands fa-instagram hover:text-gray-300 hover:cursor-pointer text-xl transition-all"></i>
               </a>
             </div>
             <div className="github mx-2 ">
@@ -78,7 +78,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-github hover:text-gray-300 hover:cursor-pointer text-xl"></i>
+                <i className="fa-brands fa-github hover:text-gray-300 hover:cursor-pointer text-xl transition-all"></i>
               </a>
             </div>
             {/* <div className="twitter mx-2 ">

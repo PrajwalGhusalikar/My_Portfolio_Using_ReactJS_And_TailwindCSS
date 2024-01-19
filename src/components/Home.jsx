@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 import myImg from "../assets/prajval_square.jpg";
 const Home = () => {
   let [hidden, setHidden] = useState(true);
@@ -10,7 +11,10 @@ const Home = () => {
           <div className="flex flex-col md:flex-row md:justify-evenly items-center  ">
             <div className="flex flex-col justify-center mt-10 sm:mt-0 p-10 md:w-[850px]">
               <div className="px-3 text-white font-serif  py-2 sm:pb-4  text-3xl md:text-6xl">
-                I am A Full Stack Developer
+                I am A Full Stack{" "}
+                <span className="typewriter">
+                  <h1 className="font-bold">&lt;Developer&gt;</h1>
+                </span>
               </div>
               <div className="sm:hidden flex flex-col justify-center items-center py-2 ">
                 {" "}
@@ -34,7 +38,7 @@ const Home = () => {
                   className="w-32"
                   download
                 >
-                  <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl text-cyan-950 hover:text-white text-xl hover:font-bold">
+                  <button className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 h-10 w-32 mx-4 my-2 rounded-3xl font-medium font-serif text-cyan-950 hover:text-white text-xl hover:font-bold animate-bounce ease-in-out">
                     Resume
                   </button>
                 </a>
@@ -44,7 +48,7 @@ const Home = () => {
                       onClick={() => {
                         hidden === true ? setHidden(false) : setHidden(true);
                       }}
-                      className="fa-solid fa-envelope  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl "
+                      className="fa-solid fa-envelope  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl hover:transition duration-300 hover:ease-in-out hover:scale-125 hover:-translate-y-1"
                     ></i>
                   </div>
 
@@ -55,7 +59,7 @@ const Home = () => {
                       rel="noopener noreferrer"
                     >
                       {" "}
-                      <i className="fa-brands fa-linkedin text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl "></i>
+                      <i className="fa-brands fa-linkedin text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl hover:transition duration-300 hover:ease-in-out hover:scale-125 hover:-translate-y-1"></i>
                     </a>
                   </div>
                   <div className="mx-2">
@@ -64,7 +68,7 @@ const Home = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="fa-brands fa-instagram text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl "></i>
+                      <i className="fa-brands fa-instagram text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl hover:transition duration-300 hover:ease-in-out hover:scale-125 hover:-translate-y-1"></i>
                     </a>
                   </div>
                   <div className=" mx-2 ">
@@ -72,7 +76,7 @@ const Home = () => {
                       href="https://github.com/PrajwalGhusalikar"
                       target="_bank"
                     >
-                      <i className="fa-brands fa-github text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl "></i>
+                      <i className="fa-brands fa-github text-black  hover:text-gray-300 hover:font-bold hover:cursor-pointer text-3xl sm:text-4xl hover:transition duration-300 hover:ease-in-out hover:scale-125 hover:-translate-y-1"></i>
                     </a>
                   </div>
                 </div>

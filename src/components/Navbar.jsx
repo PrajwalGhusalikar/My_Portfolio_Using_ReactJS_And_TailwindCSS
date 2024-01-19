@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="hidden md:flex  text-xl justify-between p-1 pr-5 mr-2">
           <Link
             to="home"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
@@ -27,7 +27,7 @@ const Navbar = () => {
 
           <Link
             to="skills"
-            className="m-auto p-2 font-light rounded-2xl text-center  hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center  hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
@@ -40,7 +40,7 @@ const Navbar = () => {
 
           <Link
             to="projects"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
@@ -67,7 +67,7 @@ const Navbar = () => {
 
           <Link
             to="contact"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-24 hover:bg-slate-800 text-gray-300  cursor-pointer hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -80,7 +80,7 @@ const Navbar = () => {
 
           <Link
             to="about"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer"
+            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-20 hover:bg-slate-800 text-gray-300  cursor-pointer hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
