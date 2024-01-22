@@ -47,7 +47,7 @@ const Footer = () => {
               GitHub
             </a>
           </div>
-          <a href="\Prajwal_Ghusalikar_Resume1.pdf" download>
+          <a href="Prajwal_Ghusalikar_Resume_2.pdf" download>
             <div className="p-2 text-center hidden sm:block hover:text-gray-300 hover:cursor-pointer">
               <i className="fa-regular fa-file hover:text-gray-300 hover:cursor-pointer text-xl p-2"></i>{" "}
               Resume

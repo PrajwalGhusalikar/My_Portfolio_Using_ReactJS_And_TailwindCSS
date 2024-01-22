@@ -34,7 +34,7 @@ const Home = () => {
               </div>
               <div className="h-70  flex flex-col  justify-start my-4">
                 <a
-                  href="\Prajwal_Ghusalikar_Resume1.pdf"
+                  href="Prajwal_Ghusalikar_Resume_2.pdf"
                   className="w-32"
                   download
                 >
