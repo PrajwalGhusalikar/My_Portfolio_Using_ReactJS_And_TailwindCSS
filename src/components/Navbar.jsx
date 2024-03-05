@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [toggle, settoggle] = useState("");
-
   let ref = useRef();
 
   return (
