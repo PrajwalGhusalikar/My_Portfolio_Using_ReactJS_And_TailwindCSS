@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/prajval_square.jpg";
+import Illustration from "../assets/about_illustration.jpg";
 const About = () => {
   return (
     <div name="about">
@@ -7,10 +7,10 @@ const About = () => {
         <h2 className="text-3xl  text-slate-100 font-serif p-2">About Me</h2>{" "}
       </div>
       <div className="bg-gradient-to-r from-slate-800 to-slate-950  w-screen flex md:flex-row flex-col justify-between md:justify-center  ">
-        <div className=" sm:hidden bg-transperant w-screen md:m-3  md:max-w-96   md:min-w-80 md:min-h-80 flex justify-center items-center rounded-xl">
+        <div className="  bg-transperant w-screen md:m-3  md:max-w-96   md:min-w-80 md:min-h-80 flex justify-center items-center rounded-xl">
           <img
             className="rounded-2xl m-4 w-60 h-60 md:w-72 md:h-72 border-2  border-opacity-40 border-solid border-white p-1 "
-            src={myImg}
+            src={Illustration}
             alt="MyImg"
           />
         </div>
