@@ -51,7 +51,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to="experiance"
+            to="experience"
             className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-28 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
@@ -156,18 +156,19 @@ const Navbar = () => {
             Projects
           </Link>
 
-          {/* <div className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800  ">
-            <Link
-              to="experiance"
-              smooth={true}
-              duration={500}
-              onClick={() => {
-                settoggle(false);
-              }}
-            >
-              Experiance
-            </Link>
-          </div> */}
+          <Link
+            to="experience"
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            smooth={true}
+            offset={-70}
+            duration={500}
+            onClick={() => {
+              settoggle(false);
+            }}
+          >
+            Experience
+          </Link>
+
 
           <Link
             to="contact"
