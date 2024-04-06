@@ -6,8 +6,8 @@ import "./style.css";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import experience from "./components/Experience";
 import Experience from "./components/Experience";
+import Certifications from "./components/Certifications";
 
 function App() {
   return (
@@ -18,8 +18,9 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
-        <Contact />
+        <Certifications/>
         <About />
+        <Contact />
         <Footer />
       </div>
     </>

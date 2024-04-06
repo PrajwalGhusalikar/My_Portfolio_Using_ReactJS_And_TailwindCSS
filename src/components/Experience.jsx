@@ -104,12 +104,12 @@ const Experience = () => {
                       <p className="text-sm text-gray-400">{step.duration}</p>
                     </div>
                     <div className="mb-2">
-                      <p className="text-sm text-gray-800 text-wrap overflow-auto block">
+                      <p className="text-sm text-gray-800 text-wrap flex overflow-hidden flex-wrap w-60 sm:w-80">
                         {step.skills.map((skill, index) => {
                           return (
                             <span
                               key={index}
-                              className="text-green-400 bg-slate-500 mx-2 p-2 rounded-xl text-wrap "
+                              className="text-white bg-slate-500 mx-2 p-1 px-2 rounded my-1 text-wrap "
                             >
                               {skill}
                             </span>
@@ -117,7 +117,11 @@ const Experience = () => {
                         })}
                       </p>
                     </div>
-                    <p className="text-white">{step.description}</p>
+                    <div className="">
+                      {" "}
+                      <h2 className="text-lg font-base text-green-500  ">Description:</h2>
+                      <p className="text-white ml-10">{step.description}</p>
+                    </div>
                   </div>
                 </div>
               </Card>
