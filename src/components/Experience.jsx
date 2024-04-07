@@ -47,7 +47,7 @@ const Experience = () => {
 
   return (
     <div name="experience" className="bg-gray-900 pb-10">
-      <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-center sticky z-50 top-16 sm:top-20">
+      <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-center sticky  top-16 sm:top-20">
         <h2 className="text-3xl text-gray-100 font-serif py-2">
           My Experience
         </h2>

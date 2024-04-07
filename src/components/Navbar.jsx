@@ -52,7 +52,7 @@ const Navbar = () => {
 
           <Link
             to="experience"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-28 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
+            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-32 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
@@ -65,7 +65,7 @@ const Navbar = () => {
 
           <Link
             to="certifications"
-            className="m-auto p-2 font-light rounded-2xl text-center hover:font-bold w-28 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
+            className="m-auto p-2 px-0 font-light rounded-2xl text-center hover:font-bold w-40 hover:bg-slate-800 text-gray-300  cursor-pointer   hover:transition duration-300 hover:ease-in-out hover:scale-105 hover:-translate-y-0.5"
             smooth={true}
             offset={-70}
             duration={500}
@@ -134,7 +134,7 @@ const Navbar = () => {
       {toggle ? (
         <div className="flex fixed top-0 left-0 right-0 z-5 flex-col justify-center text-center bg-slate-900 opacity-85 h-screen z-10 ">
           <Link
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             to="home"
             smooth={true}
             offset={-70}
@@ -148,7 +148,7 @@ const Navbar = () => {
 
           <Link
             to="skills"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -161,7 +161,7 @@ const Navbar = () => {
 
           <Link
             to="projects"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -174,7 +174,7 @@ const Navbar = () => {
 
           <Link
             to="experience"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -187,7 +187,7 @@ const Navbar = () => {
 
           <Link
             to="certifications"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -201,7 +201,7 @@ const Navbar = () => {
 
           <Link
             to="contact"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
@@ -214,7 +214,7 @@ const Navbar = () => {
 
           <Link
             to="about"
-            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 "
+            className="text-white text-3xl py-4 hover:scale-115 cursor-pointer rounded-2xl text-center hover:font-bold  hover:bg-slate-800 z-10 "
             smooth={true}
             offset={-70}
             duration={500}
