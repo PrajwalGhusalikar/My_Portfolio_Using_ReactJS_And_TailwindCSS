@@ -1,7 +1,5 @@
 import React from "react";
 import { Card } from "@mui/material";
-import CheckCircleOutlineOutlined from "@mui/icons-material/CheckCircleOutlineOutlined";
-import LaptopChromebook from "@mui/icons-material/LaptopChromebook";
 import OneSmarterLogo from "../assets/logo-two.png";
 import MahiLakraLogo from "../assets/mahiLakraLogo.png";
 

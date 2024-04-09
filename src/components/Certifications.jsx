@@ -12,13 +12,13 @@ export default function Certifications() {
       title: "Coursera WebDev Certificate ",
       Image: Certificate,
       description: "Getting Started with Front-End Web Developement",
-      PDFLInk : CertificatePDF
+      PDFLInk: CertificatePDF,
     },
     {
       title: "Coursera React Frontend Certificate ",
       Image: Certificate,
       description: "Projects with React.js",
-      PDFLInk: ""
+      PDFLInk: "",
     },
   ];
   return (
@@ -33,11 +33,7 @@ export default function Certifications() {
           {steps.map((step, index) => (
             <div className=" flex justify-evenly items-center" key={index}>
               {index > 0}
-              <Card
-                sx={{ width: 300 }}
-                md={{ width: 550 }}
-                className="m-3 border border-spacing-6 border-white"
-              >
+              <Card className="m-3 border border-spacing-6 border-white">
                 <CardMedia
                   className="border border-gray-950"
                   sx={{ height: 230 }}
